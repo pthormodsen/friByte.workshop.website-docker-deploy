@@ -170,7 +170,7 @@ Now you should have a docker image in the Github Container Registry which you ca
 
 ```bash
 docker rm -f first-docker-website
-docker run -p 8000:80 --name first-docker-website ghcr.io/<your-github-username>/first-docker-website
+docker run -p 8000:80 --name first-docker-website ghcr.io/pthormodsen/fribyte.workshop.website-docker-deploy:main
 ```
 
 ### Deploy a website to a server with custom domain name and SSL certificate using docker compose
